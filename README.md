@@ -23,4 +23,4 @@ farazlly.github.io/Add your GitHub Pages website link here.
 
 Contact
 
-- GitHub: https://github.com/farazlly
+ https://github.com/farazlly
