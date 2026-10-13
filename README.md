@@ -19,7 +19,7 @@ This is my personal portfolio website, created to showcase my skills and project
 
 Live Website
 
-Add your GitHub Pages website link here.
+farazlly.github.io/Add your GitHub Pages website link here.
 
 Contact
 
