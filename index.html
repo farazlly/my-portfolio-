@@ -1,194 +1,114 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      background: #0b1120;
-      color: #f1f5f9;
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-    }
-
-    nav {
-      padding: 18px;
-      text-align: center;
-      background: #111827;
-      position: sticky;
-      top: 0;
-    }
-
-    nav a {
-      color: #60a5fa;
-      text-decoration: none;
-      margin: 0 8px;
-      font-size: 14px;
-    }
-
-    header {
-      text-align: center;
-      padding: 75px 20px;
-    }
-
-    header h1 {
-      font-size: 38px;
-      margin: 10px 0;
-    }
-
-    .blue {
-      color: #60a5fa;
-    }
-
-    header p {
-      color: #cbd5e1;
-      margin-bottom: 24px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      background: #2563eb;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-    }
-
-    section {
-      padding: 40px 20px;
-      max-width: 750px;
-      margin: auto;
-    }
-
-    h2 {
-      margin-bottom: 18px;
-      color: #60a5fa;
-    }
-
-    .card {
-      background: #172033;
-      padding: 20px;
-      border-radius: 12px;
-      margin: 14px 0;
-      border: 1px solid #26354d;
-    }
-
-    .skills span {
-      display: inline-block;
-      background: #1e3a5f;
-      padding: 7px 12px;
-      margin: 5px;
-      border-radius: 6px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 25px;
-      color: #94a3b8;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faraz - Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 40px;
+            background: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+        
+        nav a {
+            display: inline-block;
+            background: #1e3a5f;
+            padding: 7px 12px;
+            margin: 5px;
+            border-radius: 6px;
+            color: #e2e8f0;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            background: #2563eb;
+        }
+        
+        .blue { 
+            color: #0077ff; 
+            text-decoration: none; 
+        }
+        
+        .blue:hover {
+            text-decoration: underline;
+        }
+        
+        section {
+            margin: 50px 0;
+        }
+        
+        h1, h2 {
+            color: #38bdf8;
+        }
+        
+        .project {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #94a3b8;
+            margin-top: 50px;
+            border-top: 1px solid #334155;
+        }
+    </style>
 </head>
-   <style>
-     .blue { color: #0077ff; text-decoration: none; }
-     body { font-family: sans-serif; margin: 40px; }
-     footer { margin-top: 50px; text-align: center; }
-   </style>
-
 <body>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-  <header>
-    <p>HELLO, WORLD! 👋</p>
-    <h1>I'm <span class="blue"> Faraz </span></h1>
-    <p>Beginner Developer | Learning to Build</p>
-    <a class="btn" href="#projects">View My Projects</a>
-  </header>
+    <section id="about">
+        <h1>Hey, I'm Faraz 👋</h1>
+        <p>23 y/o developer from Belgaum. I love building cool stuff for the web.</p>
+        <p>
+            <a class="blue" href="https://github.com/farazlly" target="_blank">Visit GitHub</a>
+        </p>
+    </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <div class="card">
-      Hi! I am a beginner developer learning web development.
-      I enjoy creating websites and learning new technologies.
-      My goal is to become a skilled software developer.
-    </div>
-  </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>HTML, CSS, JavaScript, Python</p>
+        <!-- Yahan apne skills add kar -->
+    </section>
 
-  <section id="skills">
-    <h2>My Skills</h2>
-    <div class="card skills">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>GitHub</span>
-      <span>Problem Solving</span>
-    </div>
-  </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Is project ke baare mein 1 line yahan likh.</p>
+            <a class="blue" href="#" target="_blank">View Code</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Is project ke baare mein 1 line yahan likh.</p>
+            <a class="blue" href="#" target="_blank">Live Demo</a>
+        </div>
+    </section>
 
-  <section id="projects">
-    <h2>My Projects</h2>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: faraz@example.com</p>
+        <!-- Apna email daal de -->
+    </section>
 
-    <div class="card">
-      <h3>Personal Portfolio</h3>
-      <p>My first website, built using HTML and CSS.</p>
-    </div>
+    <footer>
+        <p>Made with ❤️ by Faraz</p>
+        <p>© <span id="year"></span> My Portfolio</p>
+    </footer>
 
-    <div class="card">
-      <h3>Future Project</h3>
-      <p>More exciting coding projects coming soon!</p>
-    </div>
-     <section id="projects">
-     <h2>My Projects</h2>
-     <div class="project">
-       <h3>Project Name</h3>
-       <p>1 line mein kya kiya</p>
-       <a href="github-link">View Code</a>
-     </div>
-   </section>
-
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <div class="card">
-      <p>Let's connect and build something together.</p>
-      <p>Email: solapurisarfaraz@gmail.com</p>
-      <p>
-        GitHub:
-        <a class="blue" 
-   href="https://github.com/farazlly" 
-   target="_blank">Visit GitHub</a>
-      </p>
-    </div>
-  </section>
-
-  <footer>
-    <p>Made with ❤️ by Faraz</p>
-    <p>© <span id="year"></span> My Portfolio</p>
-  </footer>
-
-  <script>
-    document.getElementById("year").textContent =
-      new Date().getFullYear();
-  </script>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
-     <a class="blue"
-     href="https://github.com/farazlly"
-     target="_blank">Visit GitHub</a>
- </html>
